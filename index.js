@@ -11,6 +11,6 @@ function setThisWithApply (arg1, arg2, arr) {
 }
 
 function returnNewFunctionOf (fn, arg) {
-  let newFn = fn().bind(arg)
+  let newFn = fn.bind(arg)
   return newFn()
 }
