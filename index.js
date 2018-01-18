@@ -1,3 +1,4 @@
 function justInvoke (fn) {
-  return fn;
+  let r = fn()
+  return r;
 }
